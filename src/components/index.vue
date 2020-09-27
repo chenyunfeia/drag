@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="box clearfix">
     <AsideLeft></AsideLeft>
     <div id="main"></div>
     <AsideRight></AsideRight>
@@ -7,21 +7,20 @@
 </template>
 
 <script>
-import AsideLeft from "./asideLeft"
-import AsideRight from "./asideRight"
+import AsideLeft from "./asideLeft";
+import AsideRight from "./asideRight";
 export default {
- components:{
-   AsideLeft,
-   AsideRight
- }
-}
+  components: {
+    AsideLeft,
+    AsideRight,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss"  scoped>
-.box{
+.box {
   width: 100%;
   height: 100%;
 }
-
 </style>

@@ -1,3 +1,3 @@
 <template>
-    <div id="asideRight"></div>
+  <div id="asideRight" class="fr"></div>
 </template>

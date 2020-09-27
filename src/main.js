@@ -7,7 +7,6 @@ import store from "./store"
 
 import "@/assets/css/normalize.css"
 import "@/assets/css/common.css"
-console.log(store)
 
 Vue.config.productionTip = false
 
@@ -16,6 +15,8 @@ new Vue({
   el: '#app',
   router,
   store,
-  components: { App },
+  components: {
+    App
+  },
   template: '<App/>'
 })
