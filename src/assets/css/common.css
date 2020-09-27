@@ -11,6 +11,36 @@ body {
   background-color: red;
 }
 
+#main {
+  width: calc(100% - 600px);
+  margin: 0 auto;
+}
+
+/* 侧边栏动画 */
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .5s;
+  transform: translateX(0px);
+}
+
+.fade-enter,
+.fade-leave-to {
+  transform: translateX(-300px);
+  opacity: 0;
+}
+
+.fadeR-enter-active,
+.fadeR-leave-active {
+  transition: all .5s;
+  transform: translateX(0);
+}
+
+.fadeR-enter,
+.fadeR-leave-to {
+  transform: translateX(300px);
+  opacity: 0;
+}
+
 
 /* 浮动 */
 .clearfix:after,
