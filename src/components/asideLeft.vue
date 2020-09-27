@@ -1,5 +1,5 @@
 <template>
-    <div id="asideLeft"></div>
+    <div id="asideLeft">aaa</div>
 </template>
 
 <style lang="scss" scoped>
