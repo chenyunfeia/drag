@@ -1,5 +1,5 @@
 <template>
-  <div id="asideLeft">修改法撒旦范德萨分馆</div>
+  <div id="asideLeft">修改法撒旦范德但是萨分馆</div>
 </template>
 
 <style lang="scss" scoped>
