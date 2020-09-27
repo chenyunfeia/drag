@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from "./store"
+import "@/components/module/index.js"
 
 import "@/assets/css/normalize.css"
 import "@/assets/css/common.css"

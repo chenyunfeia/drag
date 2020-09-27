@@ -1,6 +1,9 @@
 
-import {site,size} from "../element/site"
+
+let init = ({el})=>{
+console.log(el)
+}
 
 export {
-
+    init
 }

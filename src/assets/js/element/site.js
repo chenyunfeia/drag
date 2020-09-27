@@ -8,12 +8,6 @@ class site {
  }
 }
 
-class size {
- constructor ({el}){
-     
- }
-}
 export {
-    site,
-    size
+    site
 }

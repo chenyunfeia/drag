@@ -1,6 +1,8 @@
 <template>
   <transition name="fade">
-    <div id="asideLeft" v-if="asideLeft" class="fl"></div>
+    <div id="asideLeft" v-if="asideLeft" class="fl">
+      <Square></Square>
+    </div>
   </transition>
 </template>
 <script>

@@ -2,8 +2,7 @@
   <div class="box clearfix">
     <AsideLeft></AsideLeft>
     <div id="main">
-      <button @click="asideLeftIF(true)">出</button>
-      <button @click="asideLeftIF(false)">进</button>
+
     </div>
     <AsideRight></AsideRight>
   </div>
