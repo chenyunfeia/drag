@@ -9,6 +9,14 @@ body {
 #asideRight {
   width: 300px;
   height: 100%;
+  background-color: #95afc0;
+}
+
+#asideLeft {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
 }
 
 #main {
@@ -16,10 +24,16 @@ body {
   margin: 0 auto;
 }
 
-.card{
+.card {
   width: 140px;
   height: 120px;
   border: 1px solid red;
+  margin-top: 15px;
+}
+
+.card:nth-of-type(1),
+.card:nth-of-type(2) {
+  margin-top: 0;
 }
 
 /* 侧边栏动画 */

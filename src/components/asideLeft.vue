@@ -2,6 +2,8 @@
   <transition name="fade">
     <div id="asideLeft" v-if="asideLeft" class="fl">
       <Square></Square>
+      <Square></Square>
+      <Square></Square>
     </div>
   </transition>
 </template>
